@@ -26,6 +26,7 @@ import {
   earth,
   p1,
   output,
+  vitals7,
 
   user1,
   user2,
@@ -126,16 +127,20 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "Software Developer",
-    company_name: "Lineysha Technologies",
-    icon: line,
+    title: "Full Stack Developer",
+    company_name: "Vitals7",
+    icon: vitals7,
     iconBg: "#383E56",
-    date: "Apr 2021 - Sept 2021",
+    date: "Sept 2023 - Aug 2021",
     points: [
-      "Collaborated with a diverse team to design and implement user interfaces for two major projects, leading to the development of five responsive and visually appealing web pages whilst communicating with team members to understand requirements and provide regular updates.",
-      "Utilized HTML, CSS, JavaScript, and ReactJS, following SDLC practices to create interactive features that enhanced user experience and engagement. Integrated JDBC and ODBC for efficient data exchange between the web application and databases, playing a key role in data management and connectivity.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Assisted in bug fixing and testing, resolving 10+ issues to ensure a smooth and error-free user interface.",
+      "Played a key role in building a platform that integrates with a medical device to monitor and display vitals like blood pressure.",
+      "Built features allowing patients to link with healthcare providers, book appointments, and manage their healthcare interactions through a user-friendly interface.",
+      "Integrated Zoom LTK to enable video call sessions between doctors and patients, enhancing telemedicine capabilities.",
+      "Developed a messaging system for seamless communication between patients and doctors, ensuring secure and efficient information exchange.",
+      "Engineered dynamic integration of vitals from the medical device into the patient’s profile, allowing doctors to monitor and prescribe medications effectively.",
+      "Employed ReactJS, TypeScript, and Node.js with Tailwind CSS for the frontend, and FastAPI with Pydantic for the backend, ensuring a robust and scalable application.",
+      "Used MongoDB as the database with Beanie for efficient data retrieval, ensuring quick access to patient information and vitals."
+
     ],
   },
   {
@@ -145,8 +150,11 @@ export const EXPERIENCES = [
     iconBg: "#E6DEDD",
     date: "Oct 2021 - April 2022",
     points: [
-      "Assisted in the development of Java-based applications, gaining hands-on experience in the software development life-cycle and contributed to coding and debugging for modules within larger applications.",
-      "Engaged in learning sessions on software architecture and advanced Java features for future contributions.",
+      "Collaborated with cross-functional teams to design and implement user interfaces for two major projects, leading to the development of five responsive and visually appealing web pages using AngularJS and TailwindCSS.",
+      "Engineered robust APIs in Spring, documented in Swagger, Postman and ensured high performance with JUnit testing.",
+      "Integrated RESTful APIs and asynchronous data handling using observables in Angular, ensuring real-time data updates.",
+      "Containerized applications using Docker to facilitate smooth CI/CD pipelines and deployed containerized applications on Kubernetes clusters, managing scalability, load balancing, and seamless rollouts and rollbacks.",
+      
     ],
   },
   
@@ -178,6 +186,7 @@ export const PROJECTS = [
       },
     ],
     image: p1,
+    live_site_link : "https://netclix-gamma.vercel.app/auth",
     source_code_link: "https://github.com/prak03/Netclix",
   },
   {

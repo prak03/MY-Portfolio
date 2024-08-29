@@ -53,8 +53,7 @@ export const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm Prakash Kolluru, a full stack developer. I am a proficient software developer with expertise in languages like Java, JavaScript, Python, and frameworks such as ReactJs, Nodejs, and Spring boot. I have a strong foundation in data structures, algorithms, and software engineering principles, and is experienced in using tools like Docker, Maven, and AWS services. I'm currently seeking opportunities that will challenge me and provide avenues for professional and personal growth.",
-      
+          Hey there! I’m Prakash, a full stack developer with 3 years of experience in turning coffee into code. I’ve mastered the “dark arts” of React, Angular, and Spring Boot (not really dark, haha) and I’m always on the lookout for new tech toys—especially in the AI playground. Whether it’s building sleek, responsive apps or convincing TensorFlow to predict my next snack, I’m all about blending creativity with cutting-edge tech. If you’re into innovative solutions and a dash of fun, let’s make something awesome together!
         </motion.p>
 
         {/* Service Card */}

@@ -29,6 +29,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import line from "./company/line.jpeg";
 import kipi from "./company/kipi.jpeg";
+import vitals7 from "./company/vitals7.jpeg"
 
 import earth from "./projects/earth.png";
 import output from "./projects/output.png";
@@ -74,4 +75,5 @@ export {
   youtube,
   linkedin,
   twitter,
+  vitals7
 };
